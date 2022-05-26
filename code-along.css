@@ -1,3 +1,26 @@
 nav {
-  display: none;
+ /* display: none;*/
+}
+img {
+  max-width: 175px;
+  height: 125px;
+}
+/* *{
+  border: 1px solid gold;
+}*/
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content:center;*/
+  justify-content: space-evenly;
+}
+aside {
+  min-width: 20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
